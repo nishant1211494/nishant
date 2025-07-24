@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+      color: #333;
+    }
+
+    header {
+      background-color: #4CAF50;
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #4CAF50;
+    }
+
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .project-card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      flex: 1 1 250px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    form button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #333;
+      color: white;
+    }
+
+    @media (max-width: 600px) {
+      .projects {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Nishant Shrestha</h1>
+    <p>Web Developer | Designer | Dreamer</p>
+  </header>
+
+  <section>
+    <h2>About me</h2>
+    <p>Hello! I'm a passionate web developer with experience in building beautiful and functional websites. I love learning new technologies and solving problems creatively.</p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>Project One</h3>
+        <p>A brief description of your project goes here.</p>
+      </div>
+      <div class="project-card">
+        <h3>Project Two</h3>
+        <p>Another project you've built. You can link to it or describe it.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Nishant Shrestha" required />
+      <input type="email" placeholder="btit24.nis@ismt.edu.np" required />
+      <textarea placeholder="Hellow World" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Nishant. All rights reserved.
+  </footer>
+
+</body>
+</html>
